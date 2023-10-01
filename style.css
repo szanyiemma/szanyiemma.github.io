@@ -5,11 +5,18 @@ body{
     background-attachment: fixed;
 }
 img{
-    height: 600px!important;
-    width: auto !important;
     margin:0 auto !important;
+    width: 50% !important;
+    height:  auto !important;
 }
 .image{
     text-align: center !important;
    
+}
+@media screen and (max-width: 1000px) {
+    img{
+        
+        width: 100% !important;
+        height:  auto !important;
+    }
 }
